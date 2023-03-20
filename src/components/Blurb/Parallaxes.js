@@ -1,7 +1,16 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
+import { useNavigate } from 'react-router-dom';
+
 
 function Parallaxes({blurbDetails}) {
+
+  let navigate = useNavigate()
+
+  const routeChange = () => {
+    let path = `studios`
+    navigate(path)
+}
   return (
     <>
       {blurbDetails.map((details, index) => (
@@ -27,7 +36,7 @@ function Parallaxes({blurbDetails}) {
               <p className="blurbParagraph">{details.description}</p>
             </div>
             <div className="buttonContainer">
-              <button>{details.button}</button>
+              <button onClick={routeChange}>{details.button}</button>
             </div>
 
           </div>
