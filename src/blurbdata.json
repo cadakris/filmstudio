@@ -1,0 +1,19 @@
+[
+
+    {
+        "id": 1,
+        "caption": "STATE OF THE ART STUDIO SPACE",
+        "title": "Our Studios",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "imageURL": "https://res.cloudinary.com/dnr8dgxt2/image/upload/v1679110624/Studio%20Project%20Images/wide-studio-space_mbilaj.jpg",
+        "button": "Studio Space"
+    },
+    {
+        "id": 2,
+        "caption": "IMPECCABLE SERVICES AND MODERN EQUIPMENT",
+        "title": "Contact Us",
+        "description": "Let us know how we can be of service to your next production!",
+        "imageURL": "https://res.cloudinary.com/dnr8dgxt2/image/upload/v1679192753/Studio%20Project%20Images/upclose-camera_mlcs92.jpg",
+        "button": "Say Hello!"
+    }
+]
