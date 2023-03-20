@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import Parallaxes from './Parallaxes'
+import { useNavigate, Link } from 'react-router-dom'
+
 import blurbdata from '../../blurbdata.json'
 
 import './_blurbs.scss'
@@ -8,6 +10,7 @@ function Blurbs() {
 
   const [blurbDetails] = useState([...blurbdata])
   
+  const navigate = useNavigate()
 
   return (
     <>
@@ -20,9 +23,9 @@ function Blurbs() {
               <p className="blurbParagraph">Located in the heart of Los Angeles, Maher Studios is devoted to provide exceptional studio facilities and impeccable services. Our boutique studio caters to all TV, film, and commercial productions.</p>
             </div>
             <div className="buttonContainer">
-              <button>Learn More</button>
-              
-
+              <Link to="/studios">
+                <button>Learn More</button>
+              </Link>
             </div>
         </div>
         <Parallaxes
