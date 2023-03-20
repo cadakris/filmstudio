@@ -21,6 +21,7 @@ function MenuBar() {
           <a href="#" className="menu-link">ABOUT</a>
           <a href="#" className="menu-link">STUDIO SPACE</a>
           <a href="#" className="menu-link">CONTACT</a>
+          <a href="#" className="menu-link">hello</a>
         </div>
       </div>
     </div>
