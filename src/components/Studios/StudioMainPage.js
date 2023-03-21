@@ -1,11 +1,25 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
+import StudioParallax from './StudioParallax';
 
+import './_studios.scss'
 
 function StudioMainPage() {
   return (
-    <div>StudioMainPage
-        <h1>hello!</h1>
-    </div>
+    <>
+        {/* <Navbar /> */}
+        <StudioParallax />
+        {/* <div className="studioContainer">
+            <div className="leftContainer">
+                
+            </div>
+
+            <div className="rightContainer">
+
+            </div>
+            
+        </div> */}
+    </>
   )
 }
 

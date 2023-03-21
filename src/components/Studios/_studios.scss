@@ -1,0 +1,27 @@
+.parallax-container {
+    height: 80vh;
+    position: relative;
+  }
+  
+  .parallax-element {
+    height: 100%;
+  }
+
+.parallax-content {
+    position: absolute;
+    left: 0;
+    margin-top: 15%;
+    top: 50%;
+    width: 100%;
+
+    color: #000;
+  }
+
+  .border {
+        background-color: #111;
+        color: #fff;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+        text-align: center;
+    }
