@@ -7,18 +7,8 @@ import './_studios.scss'
 function StudioMainPage() {
   return (
     <>
-        {/* <Navbar /> */}
+        <Navbar />
         <StudioParallax />
-        {/* <div className="studioContainer">
-            <div className="leftContainer">
-                
-            </div>
-
-            <div className="rightContainer">
-
-            </div>
-            
-        </div> */}
     </>
   )
 }
