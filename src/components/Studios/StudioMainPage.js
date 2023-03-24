@@ -19,19 +19,25 @@ function StudioMainPage() {
         <Navbar />
         <StudioParallax />
         <div className="splitScreen">
+          <div className="left-1">
           {studioData.map(studioDetails => {
             return <LeftSide 
               key={studioDetails.id}
               studioDetails={studioDetails}
               />
           })}
+          </div>
 
-          {studioData.map(studioDetails => {
-            return <RightSide 
-              key={studioDetails.id}
-              studioDetails={studioDetails}
-              />
-          })}
+          <div className="right-2">
+            {studioData.map(studioDetails => {
+              return <RightSide 
+                key={studioDetails.id}
+                studioDetails={studioDetails}
+                />
+            })}
+
+          </div>
+
         </div>
     </>
   )

@@ -8,7 +8,7 @@ function RightSide({studioDetails}) {
   return (
     <>
         <div className="rightSideContainer">
-            <h1>{title}</h1>
+            <h1 className="studioTitle">{title}</h1>
         </div>
     </>
 
