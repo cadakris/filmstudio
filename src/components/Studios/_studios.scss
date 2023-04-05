@@ -33,7 +33,7 @@
 }
 
   .left-1 {
-    background: red;
+    background: rgb(42, 41, 41);
     flex: 1;
   }
 
@@ -42,12 +42,13 @@
     // width: 100%;
   }
 
-  // .studioTitle{
-  //   width: 100%;
-  //   display: block;
-  // }
-
   
   .mainStudioPhotoDisplay {
-    width: 50%;
+    width: 80%;
+    padding: 4% 0;
+  }
+
+  .leftSideContainer {
+    display: inline-block;
+    text-align: center;
   }
