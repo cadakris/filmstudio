@@ -10,8 +10,8 @@ function IndividualStudios({studioDetails}) {
         <LeftSide studioDetails={studioDetails}/>
         <RightSide studioDetails={studioDetails}/>
       </div>
-      
-      <StudiosGallery />
+
+      <StudiosGallery photos={studioDetails.imageSource}/>
     </>
 
   )
