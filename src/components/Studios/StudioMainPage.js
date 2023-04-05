@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import StudioParallax from './StudioParallax';
 import IndividualStudios from './IndividualStudios';
 
+
 import studiodata from '../../studiodata.json'
 
 
@@ -24,6 +25,7 @@ function StudioMainPage() {
           
             />
         })}
+
     </>
   )
 }
