@@ -7,6 +7,7 @@ function RightSide({studioDetails}) {
 
   return (
     <>
+    <div className='right-2'>
         <div className="rightSideContainer">
             <h1 className="studioTitle">{title}</h1>
             <p>{description}</p>
@@ -14,6 +15,7 @@ function RightSide({studioDetails}) {
             <p>Square Footage: {sqftg}</p>
             <p>Height: {height}</p>
         </div>
+    </div>
     </>
 
   )

@@ -13,5 +13,20 @@
                 "https://res.cloudinary.com/dnr8dgxt2/image/upload/v1679350715/Studio%20Project%20Images/joel-muniz-E6ExxeQNiN4-unsplash_jkgaqd.jpg",
                 "https://res.cloudinary.com/dnr8dgxt2/image/upload/v1679350715/Studio%20Project%20Images/harry-cunningham-5tbq37qDO64-unsplash_nws7ad.jpg"
             ]
+    },
+    {
+        "id": 1,
+        "title": "Studio One", 
+        "description": "Total square footage of the ground floor is 8,549 sq. ft. Includes a shoot-in kitchen, dressing room with a hair sink, green room and two single restrooms.",
+        "sqftg": "6,131 sq. ft.",
+        "height": "28 ft.",
+        "imageSource": 
+            [
+                "https://res.cloudinary.com/dnr8dgxt2/image/upload/v1679350716/Studio%20Project%20Images/keagan-henman-pPxJTtxfV1A-unsplash_uvuy7w.jpg",
+                "https://res.cloudinary.com/dnr8dgxt2/image/upload/v1679360358/Studio%20Project%20Images/download_bl26gx.png",
+                "https://res.cloudinary.com/dnr8dgxt2/image/upload/v1679350715/Studio%20Project%20Images/emmanuel-acua-f3P6xfrj2P8-unsplash_w8wakf.jpg",
+                "https://res.cloudinary.com/dnr8dgxt2/image/upload/v1679350715/Studio%20Project%20Images/joel-muniz-E6ExxeQNiN4-unsplash_jkgaqd.jpg",
+                "https://res.cloudinary.com/dnr8dgxt2/image/upload/v1679350715/Studio%20Project%20Images/harry-cunningham-5tbq37qDO64-unsplash_nws7ad.jpg"
+            ]
     }
 ]

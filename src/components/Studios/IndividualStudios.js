@@ -5,10 +5,9 @@ import RightSide from './RightSide';
 function IndividualStudios({studioDetails}) {
   return (
     <>
-      <div className="individualStudioContainer">
+      <div className="splitScreen">
         <LeftSide studioDetails={studioDetails}/>
         <RightSide studioDetails={studioDetails}/>
-
       </div>
     </>
 
