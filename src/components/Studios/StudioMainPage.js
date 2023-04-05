@@ -1,8 +1,9 @@
 import React, { useState} from 'react';
 import Navbar from '../Navbar/Navbar';
 import StudioParallax from './StudioParallax';
-import LeftSide from './LeftSide';
-import RightSide from './RightSide';
+import IndividualStudios from './IndividualStudios';
+// import LeftSide from './LeftSide';
+// import RightSide from './RightSide';
 
 import studiodata from '../../studiodata.json'
 
@@ -18,7 +19,15 @@ function StudioMainPage() {
     <>
         <Navbar />
         <StudioParallax />
-        <div className="splitScreen">
+        {studioData.map(studioDetails => {
+          return <IndividualStudios
+            key={studioDetails.id}
+            studioDetails={studioDetails}
+          
+            />
+        })}
+        
+        {/* <div className="splitScreen">
           <div className="left-1">
           {studioData.map(studioDetails => {
             return <LeftSide 
@@ -38,7 +47,7 @@ function StudioMainPage() {
 
           </div>
 
-        </div>
+        </div> */}
     </>
   )
 }

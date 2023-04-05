@@ -1,13 +1,15 @@
 import React from 'react'
 
-function LeftSide({studioData}) {
+function LeftSide({studioDetails}) {
+
+  const{imageSource} = studioDetails
+
   return (
     <>
     <div className="leftSideContainer">
-        <img></img>
-        <img></img>
-    
-    
+        <img className="mainStudioPhotoDisplay" src={imageSource[0]}></img>
+        <br/>
+        <img className="mainStudioPhotoDisplay" src={imageSource[1]}></img>    
     </div>
     </>
   )
