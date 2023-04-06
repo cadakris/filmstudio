@@ -46,7 +46,7 @@ const StudiosGallery = ({ photos }) => {
       {enlargedIndex !== -1 && (
         <div className="overlay">
           <div className="enlarged-photo">
-            <img src={photos[enlargedIndex].src} alt={photos[enlargedIndex].alt} />
+            <img src={photos[enlargedIndex]} alt={photos[enlargedIndex].alt} />
             <button className="prev" onClick={handlePrevClick}>
               <FaArrowLeft />
             </button>
