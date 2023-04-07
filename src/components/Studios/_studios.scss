@@ -27,13 +27,19 @@
         
     }
 
+  hr {
+    height: 2px;
+    background: teal;
+    margin: 5px 0;
+  }
+
   .splitScreen{
     display: flex;
     margin-bottom: 5%;
 }
 
   .left-1 {
-    background: rgb(42, 41, 41);
+    // background: rgb(42, 41, 41);
     flex: 1;
   }
 
@@ -71,6 +77,9 @@
 
   //
 
+  .gallery-container {
+    margin-bottom: 5%;
+  }
 
   .row {
     display: flex;

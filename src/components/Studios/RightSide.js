@@ -14,6 +14,7 @@ function RightSide({studioDetails}) {
             <br/>
             <p>Square Footage: {sqftg}</p>
             <p>Height: {height}</p>
+            <button> Book Stage </button>
         </div>
     </div>
     </>
