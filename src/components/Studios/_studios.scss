@@ -29,6 +29,7 @@
 
   .splitScreen{
     display: flex;
+    margin-bottom: 5%;
 }
 
   .left-1 {
@@ -47,7 +48,7 @@
     text-align: center;
 
     img {
-      width: 80%;
+      width: 60%;
       padding: 4% 0;
     }
   }
@@ -86,7 +87,7 @@
   }
   
   img {
-    width: 50%;
+    width: 90%;
     height: auto;
     cursor: pointer;
   }
@@ -114,8 +115,9 @@
     overflow: auto;
 
     img {
-      width: 30%;
-      height: 30%;
+      padding-top: 3%;
+      width: 70%;
+      height: 70%;
       margin: auto;
       display: block;
     }

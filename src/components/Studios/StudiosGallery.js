@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaTimes} from "react-icons/fa";
 
 const StudiosGallery = ({ photos }) => {
   const [enlargedIndex, setEnlargedIndex] = useState(-1);
@@ -14,6 +14,10 @@ const StudiosGallery = ({ photos }) => {
 
   const handlePrevClick = () => {
     setEnlargedIndex((enlargedIndex - 1 + photos.length) % photos.length);
+  };
+
+  const handleExitClick = () => {
+    setEnlargedIndex(-1);
   };
 
   const photoRows = [];
@@ -45,6 +49,9 @@ const StudiosGallery = ({ photos }) => {
       {photoRows}
       {enlargedIndex !== -1 && (
         <div className="overlay">
+          <button className="exit" onClick={handleExitClick}>
+            <FaTimes />
+          </button>
           <div className="enlarged-photo">
             <img src={photos[enlargedIndex]} alt={photos[enlargedIndex].alt} />
             <button className="prev" onClick={handlePrevClick}>
