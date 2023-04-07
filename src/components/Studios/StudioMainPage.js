@@ -2,7 +2,7 @@ import React, { useState} from 'react';
 import Navbar from '../Navbar/Navbar';
 import StudioParallax from './StudioParallax';
 import IndividualStudios from './IndividualStudios';
-
+import './_studios.scss'
 
 import studiodata from '../../studiodata.json'
 

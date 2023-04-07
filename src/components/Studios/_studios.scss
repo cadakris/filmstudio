@@ -27,12 +27,6 @@
         
     }
 
-  hr {
-    height: 2px;
-    background: teal;
-    margin: 5px 0;
-  }
-
   .splitScreen{
     display: flex;
     margin-bottom: 5%;
@@ -54,7 +48,7 @@
     text-align: center;
 
     img {
-      width: 60%;
+      width: 90%;
       padding: 4% 0;
     }
   }
@@ -77,9 +71,9 @@
 
   //
 
-  .gallery-container {
-    margin-bottom: 5%;
-  }
+  // .gallery-container {
+  //   margin-bottom: 5%;
+  // }
 
   .row {
     display: flex;
@@ -90,13 +84,13 @@
   }
   
   .column {
-    width: 50%;
+    width: 33.33%;;
     // flex: 50%;
     padding: 5px;
   }
   
   img {
-    width: 90%;
+    width: 100%;
     height: auto;
     cursor: pointer;
   }
@@ -119,14 +113,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     overflow: auto;
 
     img {
+      width: 75%;
+      height: 75%;
       padding-top: 3%;
-      width: 70%;
-      height: 70%;
+
       margin: auto;
       display: block;
     }

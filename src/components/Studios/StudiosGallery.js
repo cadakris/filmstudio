@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaArrowLeft, FaArrowRight, FaTimes} from "react-icons/fa";
 
+
 const StudiosGallery = ({ photos }) => {
   const [enlargedIndex, setEnlargedIndex] = useState(-1);
 
@@ -20,14 +21,15 @@ const StudiosGallery = ({ photos }) => {
     setEnlargedIndex(-1);
   };
 
+
   const photoRows = [];
-  for (let i = 0; i < photos.length; i += 2) {
+  let i = 0;
+  while (i < photos.length) {
     photoRows.push(
       <div className="row" key={i}>
         <div className="column">
           <img
             src={photos[i]}
-            // alt={photos[i].alt}
             onClick={() => handlePhotoClick(i)}
           />
         </div>
@@ -35,13 +37,21 @@ const StudiosGallery = ({ photos }) => {
           <div className="column">
             <img
               src={photos[i + 1]}
-            //   alt={photos[i + 1].alt}
               onClick={() => handlePhotoClick(i + 1)}
+            />
+          </div>
+        )}
+        {i + 2 < photos.length && (
+          <div className="column">
+            <img
+              src={photos[i + 2]}
+              onClick={() => handlePhotoClick(i + 2)}
             />
           </div>
         )}
       </div>
     );
+    i += 3;
   }
 
   return (
@@ -53,7 +63,9 @@ const StudiosGallery = ({ photos }) => {
             <FaTimes />
           </button>
           <div className="enlarged-photo">
-            <img src={photos[enlargedIndex]} alt={photos[enlargedIndex].alt} />
+            <img src={photos[enlargedIndex]} 
+            // alt={photos[enlargedIndex].alt} 
+            />
             <button className="prev" onClick={handlePrevClick}>
               <FaArrowLeft />
             </button>
