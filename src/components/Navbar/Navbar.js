@@ -2,6 +2,7 @@ import { React } from 'react'
 import './navbar.scss'
 import MenuBar from './MenuBar'
 import { imageData } from '../../utils/MediaData.js'
+import { useNavigate, Link } from 'react-router-dom'
 
 
 function Navbar() {
@@ -17,9 +18,9 @@ function Navbar() {
             <div className="top-left"></div>
 
             <div className="top-center">
-              <a href="main-page">
+              <Link to="/">
                 <img src={`${logoImage}`} alt="Studio Logo" className="logo-image"/>
-              </a>
+              </Link>
             </div>
            
             <div className="top-right">

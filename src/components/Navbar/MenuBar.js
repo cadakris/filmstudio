@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import classNames from 'classnames';
+import { useNavigate, Link } from 'react-router-dom'
 import './menubar.scss'
 
 function MenuBar() {
@@ -19,9 +20,8 @@ function MenuBar() {
       <div className={classNames('menu', { 'is-active': isOpen })}>
         <div id = "link-container">
           <a href="#" className="menu-link">ABOUT</a>
-          <a href="#" className="menu-link">STUDIO SPACE</a>
+          <Link to="/studios"> <a className="menu-link">STUDIO SPACE</a> </Link>
           <a href="#" className="menu-link">CONTACT</a>
-          <a href="#" className="menu-link">hello</a>
         </div>
       </div>
     </div>
