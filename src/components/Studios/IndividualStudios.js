@@ -13,7 +13,6 @@ function IndividualStudios({studioDetails}) {
       </div>
       <div className="gallery-container">
         <StudiosGallery photos={studioDetails.imageSource}/>
-
       </div>
     </>
 
