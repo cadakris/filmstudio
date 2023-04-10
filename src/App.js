@@ -19,7 +19,6 @@ function App() {
     <Navbar />
     <Hero />
     <Blurbs />
-
     </>
   );
 }
