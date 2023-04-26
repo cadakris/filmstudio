@@ -2,7 +2,7 @@ import React from 'react'
 
 function InstaGallery() {
     return (
-      <div>
+      <div className="instagram-container">
         {/* LightWidget WIDGET */}
         <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
         <iframe
@@ -10,7 +10,6 @@ function InstaGallery() {
           scrolling="no"
           allowtransparency="true"
           className="lightwidget-widget"
-          style={{ width: '100%', border: '0', overflow: 'hidden' }}
         ></iframe>
       </div>
     );

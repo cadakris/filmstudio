@@ -21,7 +21,7 @@ function About() {
         </div>
 
         <InstaGallery />
-        <a href="https://www.instagram.com/always_queensny/">Follow me on Instagram</a>
+        {/* <a href="https://www.instagram.com/always_queensny/">Follow me on Instagram</a> */}
     </>
   )
 }
