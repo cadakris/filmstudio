@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar"
 import Hero from "./components/Hero/Hero"
 import Blurbs from './components/Blurb/Blurbs';
 import StudioMainPage from './components/Studios/StudioMainPage';
+import MainFooter from "./components/Footer/MainFooter"
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
@@ -19,6 +20,7 @@ function App() {
     <Navbar />
     <Hero />
     <Blurbs />
+    <MainFooter />
     </>
   );
 }

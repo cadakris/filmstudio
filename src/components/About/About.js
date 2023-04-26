@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import AboutParallax from './AboutParallax';
 import InstaGallery from './InstaGallery';
+import Footer from '../Footer/Footer'
 import './_about.scss'
 
 function About() {
@@ -22,6 +23,7 @@ function About() {
 
         <InstaGallery />
         {/* <a href="https://www.instagram.com/always_queensny/">Follow me on Instagram</a> */}
+        <Footer />
     </>
   )
 }
