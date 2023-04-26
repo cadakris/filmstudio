@@ -6,6 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import StudioMainPage from './components/Studios/StudioMainPage';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
         <Route path="/" element={<App />}/>
         <Route path= "/studios" element={<StudioMainPage />} />
         <Route path= "/about" element={<About />} />
+        <Route path= "/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

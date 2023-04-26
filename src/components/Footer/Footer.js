@@ -1,13 +1,19 @@
 import React from 'react'
+import { useNavigate, Link } from 'react-router-dom'
 
 import './_footer.scss'
 
 
 function Footer() {
+    
+    const navigate = useNavigate()
+
   return (
     <>
         <div className="footerSection">
-            <button>Contact</button>
+            <Link to="/contact">
+                <button>Contact</button>
+            </Link>
 
 
             <div className="copyRightText">

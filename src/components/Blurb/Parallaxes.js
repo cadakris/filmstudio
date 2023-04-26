@@ -1,11 +1,9 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
-import { useNavigate, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 function Parallaxes({blurbDetails}) {
-
-  const navigate = useNavigate()
 
   return (
     <>
