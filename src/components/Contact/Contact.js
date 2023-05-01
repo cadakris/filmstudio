@@ -3,6 +3,8 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import ContactParallax from './ContactParallax'
 import MainFooter from '../Footer/MainFooter'
+import RightInformation from './RightInformation'
+import LeftMessage from './LeftMessage'
 
 import './_contact.scss'
 
@@ -11,33 +13,19 @@ function Contact() {
     <>
         <Navbar />
         <ContactParallax />
-
-        <h1 className="about-header">Say Hello!</h1>
-            <div className="divider">
-                <hr/>
-            </div>
-        
-        <form>
-          <div className="form-container">
-            <input className="half"
-              type="text"
-              placeholder='First Name'
-            />
-            <input className="half"
-              type="text"
-              placeholder='Last Name'
-            />
-            <input className="full"
-              type="text"
-              placeholder='Email'
-            />
-            <textarea className="message"
-              type='text'
-              name='message'
-              placeholder='Write Your Message Here'
-            />
-          </div>
-        </form>
+        <div>
+          <h1 className="about-header">Say Hello!</h1>
+              <div className="divider">
+                  <hr/>
+              </div>
+              <div>
+                <p>If you have any inquiries or would like to book studio, please fill out the form below. We are happy to accommdate!</p>
+              </div>
+        </div>
+        <div className='contact-split-screen'> 
+        <LeftMessage />
+        <RightInformation />
+        </div>
 
         <MainFooter />
     </>

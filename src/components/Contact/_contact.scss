@@ -26,5 +26,16 @@
     font-size: 25px;
     letter-spacing: 10px;
     margin-top: 15%;
-    
+}
+
+.contact-split-screen {
+  display: flex;
+}
+
+.right-side-split {
+  flex: 1;
+}
+
+.left-side-split {
+  flex: 1;
 }
